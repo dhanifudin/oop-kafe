@@ -437,7 +437,7 @@ Tes yang harus lulus: `P08CafeTest` dan `P08CafeAppTest`. Setelah itu jalankan a
 Rekam video **minimal 10 menit, tanpa batas maksimal** berisi wajahmu dan layar komputermu. Unggah ke YouTube sebagai **Unlisted**, lalu tempel link-nya di `video/LINK.md`. Isi video, berurutan:
 
 1. **Intro**: sebut nama, NIM, nomor absen, dan varian (Varian C: Pemesanan Kafe).
-2. **Telusuri diagram dan kodemu**: jelaskan enkapsulasi, empat relasi kelas (bedakan aggregation dan composition dengan **menunjuk kodenya**), inheritance, override vs overload, dan polymorphism lewat array parent (`MenuItem[]`).
+2. **Telusuri diagram dan kodemu**: jelaskan enkapsulasi, empat relasi kelas (bedakan aggregation dan composition dengan **menunjuk kodenya**), inheritance, serta override vs overload.
 3. **Demo langsung**: jalankan `mvn test`, lalu jalankan aplikasi untuk satu alur transaksi lengkap (daftar pelanggan, tambah menu, jual, lihat status, refund) dan satu kasus gagal.
 4. **Jawab 3 pertanyaan teori dari bank soal**, satu dari setiap kategori. Dosen mengumumkan bank soal. Nomor soal ditentukan nomor absen (1 sampai 28), bukan NIM:
    - Soal 1 (Konsep dan enkapsulasi), nomor 1 sampai 4 = (bagian bulat dari (nomor absen - 1) / 4) mod 4, lalu + 1.
