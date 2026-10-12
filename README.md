@@ -38,7 +38,7 @@ Setiap **pelanggan** punya kartu loyalty dan boleh memesan paling banyak **5** i
 
 ## Memulai
 
-1. Di GitHub (lewat link GitHub Classroom dari dosen), buat repositori dari template. Pilih **Private**.
+1. Buka https://github.com/dhanifudin/oop-kafe, klik **Use this template**, lalu **Create a new repository**. Pilih **Private**, lalu undang akun GitHub Dosen (`dhanifudin`) sebagai collaborator (**Settings > Collaborators**).
 2. Clone repositori barumu, commit, dan push setiap selesai satu bagian.
 3. Buka tab **Actions**. Autograder berjalan di setiap push dan menampilkan nilai kodemu.
 
@@ -434,15 +434,17 @@ Tes yang harus lulus: `P08CafeTest` dan `P08CafeAppTest`. Setelah itu jalankan a
 
 ## Video Penjelasan (wajib)
 
-Rekam video **10 sampai 15 menit** berisi wajahmu dan layar komputermu. Unggah ke YouTube sebagai **Unlisted**, lalu tempel link-nya di `video/LINK.md`. Isi video, berurutan:
+Rekam video **minimal 10 menit, tanpa batas maksimal** berisi wajahmu dan layar komputermu. Unggah ke YouTube sebagai **Unlisted**, lalu tempel link-nya di `video/LINK.md`. Isi video, berurutan:
 
-1. **Intro (maksimal 1 menit)**: sebut nama, NIM, dan varian (Varian C: Pemesanan Kafe).
+1. **Intro**: sebut nama, NIM, nomor absen, dan varian (Varian C: Pemesanan Kafe).
 2. **Telusuri diagram dan kodemu**: jelaskan enkapsulasi, empat relasi kelas (bedakan aggregation dan composition dengan **menunjuk kodenya**), inheritance, override vs overload, dan polymorphism lewat array parent (`MenuItem[]`).
 3. **Demo langsung**: jalankan `mvn test`, lalu jalankan aplikasi untuk satu alur transaksi lengkap (daftar pelanggan, tambah menu, jual, lihat status, refund) dan satu kasus gagal.
-4. **Jawab 2 pertanyaan dari bank soal** yang ditentukan NIM-mu (dosen mengumumkan bank soal):
-   - nomor soal 1 = (digit terakhir NIM) + 1, hasilnya 1 sampai 10;
-   - nomor soal 2 = ((dua digit terakhir NIM) mod 10) + 11, hasilnya 11 sampai 20.
-5. **Refleksi (maksimal 1 menit)**.
+4. **Jawab 3 pertanyaan teori dari bank soal**, satu dari setiap kategori. Dosen mengumumkan bank soal. Nomor soal ditentukan nomor absen (1 sampai 28), bukan NIM:
+   - Soal 1 (Konsep dan enkapsulasi), nomor 1 sampai 4 = (bagian bulat dari (nomor absen - 1) / 4) mod 4, lalu + 1.
+   - Soal 2 (Relasi kelas), nomor 5 sampai 8 = ((nomor absen - 1) mod 4) + 5.
+   - Soal 3 (Inheritance, override, overload), nomor 9 sampai 14 = ((nomor absen - 1) mod 6) + 9.
+   - Contoh: nomor absen 28 memberi soal 3, 8, dan 12.
+5. **Refleksi**.
 
 Rubrik video (dari dosen) diberikan terpisah oleh dosen. Baca sebelum merekam.
 
@@ -450,7 +452,7 @@ Rubrik video (dari dosen) diberikan terpisah oleh dosen. Baca sebelum merekam.
 
 Simpan di `laporan/Laporan_<NIM>_<Nama>.pdf`, contoh `laporan/Laporan_2441720001_Budi_Santoso.pdf`. Isi:
 
-1. **Identitas**: nama, NIM, kelas, link repositori GitHub, dan link video.
+1. **Identitas**: nama, NIM, nomor absen, kelas, link repositori GitHub, dan link video.
 2. **Hasil pengujian**: screenshot `mvn test` atau tab Actions yang menampilkan nilai.
 3. **Bukti WakaTime**: screenshot dashboard project `uts-c-kafe` dan total jam dalam teks.
 4. **Refleksi**: konsep yang masih membingungkan dan rencana belajarmu.
