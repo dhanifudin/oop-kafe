@@ -127,7 +127,7 @@ class P06InheritanceTest {
     }
 
     @Test
-    @DisplayName("Objek subclass bisa disimpan sebagai MenuItem (polymorphism)")
+    @DisplayName("Setiap subclass adalah turunan MenuItem (extends)")
     void isInstance() throws Throwable {
         Class<?> item = R.cls("MenuItem");
         assertTrue(item.isInstance(new Beverage("1", "Cafe Latte", 2015)));

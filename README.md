@@ -8,7 +8,7 @@
 - Pakai array biasa. Jangan pakai `List` atau `ArrayList`.
 - Jangan pakai `System.out.println` di `Cafe` dan kelas model. Tampilan hanya di `Main` dan `CafeApp`.
 - Nyalakan WakaTime setiap kali mengerjakan (lihat Langkah 0).
-- Kerjakan sendiri. Kode, video, dan laporan harus hasil kerjamu. Kode atau laporan salinan tidak dinilai.
+- Kerjakan sendiri tanpa bantuan AI. Jangan memakai AI (chatbot, asisten kode, atau autocomplete berbasis AI) untuk menulis kode, menjawab soal, atau menyusun laporan. Kode, video, dan laporan harus hasil kerjamu, dan kamu menjelaskan kodemu langsung di video. Kode atau laporan salinan tidak dinilai.
 
 ## Langkah 0: Pasang WakaTime (wajib, sebelum menulis kode apa pun)
 
@@ -456,7 +456,7 @@ Simpan di `laporan/Laporan_<NIM>_<Nama>.pdf`, contoh `laporan/Laporan_2441720001
 2. **Hasil pengujian**: screenshot `mvn test` atau tab Actions yang menampilkan nilai.
 3. **Bukti WakaTime**: screenshot dashboard project `uts-c-kafe` dan total jam dalam teks.
 4. **Refleksi**: konsep yang masih membingungkan dan rencana belajarmu.
-5. **Pernyataan kejujuran**: tulis alat bantu atau AI apa saja yang kamu pakai dan untuk apa. Jika tidak memakai, tulis demikian.
+5. **Pernyataan kejujuran**: tulis bahwa kode, video, dan laporan ini kamu kerjakan sendiri tanpa bantuan AI.
 
 ## Pengumpulan
 
@@ -471,6 +471,8 @@ Kumpulkan **seluruh repositori**. Sebelum batas waktu, pastikan:
 Kirim link repositori sesuai arahan Dosen.
 
 ## Penilaian
+
+Polymorphism muncul sebagai konsep pengantar di studi kasus, tetapi tidak dinilai (tidak ada di tes, video, maupun bank soal).
 
 | Komponen | Bobot |
 |---|---|

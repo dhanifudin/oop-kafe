@@ -37,7 +37,7 @@ class P08CafeTest {
     }
 
     @Test
-    @DisplayName("addItem menerima Beverage, Food, dan Dessert dalam satu array (polymorphism)")
+    @DisplayName("addItem menerima Beverage, Food, dan Dessert dalam satu array")
     void mixedItems() throws Throwable {
         Object cafe = cafe();
         Beverage latte = new Beverage("1", "Cafe Latte", 2015);
